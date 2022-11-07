@@ -6,7 +6,7 @@
   "scripts": {
     "start": "tsc -w",
     "build": "tsc",
-    "test": "node ./bin/index.js -o ./result"
+    "test": "node ./bin/index.js -o ./result -f woff -c -n example"
   },
   "keywords": [],
   "author": "",
