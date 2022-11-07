@@ -1,0 +1,27 @@
+{
+  "name": "mr-graphicer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc -w",
+    "build": "tsc",
+    "test": "node ./bin/index.js -o ./result"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/css": "^11.10.5",
+    "@types/commander": "^2.12.2",
+    "@types/deepmerge": "^2.2.0",
+    "commander": "^9.4.1",
+    "deepmerge": "^4.2.2",
+    "is-plain-object": "^5.0.0",
+    "webfont": "11.2.26"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.9",
+    "typescript": "4.8.4"
+  }
+}
