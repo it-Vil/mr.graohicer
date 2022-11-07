@@ -8,19 +8,39 @@
     "build": "tsc",
     "test": "node ./bin/index.js -o ./result -f woff -c -n example"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "bin": {
+    "graphicer": "./bin/grapicher.js"
+  },
+  "keywords": [
+    "iconfonts",
+    "icons",
+    "font",
+    "fonts",
+    "webfont",
+    "webfonts",
+    "svg",
+    "woff",
+    "woff2",
+    "otf",
+    "css",
+    "generator",
+    "cli",
+    "api"
+  ],
+  "bugs": {
+    "url": "https://github.com/it-Vil/mr.graphic/issues"
+  },
+  "author": "Takayuki Inoue (https://github.com/ITakayuki)",
+  "license": "MIT",
   "dependencies": {
-    "@emotion/css": "^11.10.5",
-    "@types/commander": "^2.12.2",
-    "@types/deepmerge": "^2.2.0",
     "commander": "^9.4.1",
     "deepmerge": "^4.2.2",
     "is-plain-object": "^5.0.0",
     "webfont": "11.2.26"
   },
   "devDependencies": {
+    "@types/commander": "^2.12.2",
+    "@types/deepmerge": "^2.2.0",
     "@types/node": "18.11.9",
     "typescript": "4.8.4"
   }

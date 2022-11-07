@@ -1,5 +1,5 @@
 import { program } from "commander";
-import Graphicer, {customInitialOptions} from "./createIcons";
+import Graphicer, {customInitialOptions} from "./graphicer";
 import path from "path";
 
 interface optsInterface {
